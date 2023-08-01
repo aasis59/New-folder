@@ -33,7 +33,12 @@ const InputFiled = () => {
                             Support
                         </div>
                         <div>
-                           <ImCross className="cross"  onClick={()=> setCount(true)}/>
+                           <ImCross className="cross"  onClick={()=> {setCount(true);
+                           setValidated(false);
+                           
+                        }} 
+                           
+                           />
                         </div>
                        
                     </div>
